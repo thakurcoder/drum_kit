@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(10, 89, 93);
+}
+
+h1{
+    font-size: 5vw;
+    text-align: center;
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.set{
+    text-align: center;
+    
+}
+
+button{
+    height: 15vh;
+    width: 10vw;
+    color: rgb(11, 124, 168);
+    font-size: 5vw;
+    background-color:yellowgreen;
+
+}
+.w{
+    background-image: url("tom1.png");
+}
+.a{
+    background-image: url("tom2.png");
+}
+.s{
+    background-image: url("tom3.png");
+}
+.d{
+    background-image: url("tom4.png");
+}
+.j{
+    background-image: url("crash.png");
+}
+.k{
+    background-image: url("kick.png");
+}
+.l{
+    background-image: url("snare.png");
+}
+
+.pressed{
+    opacity: 0.2;
+}
+
+@media (max-width:430px) {
+    button{
+        height: 20vh;
+        width:20vw;
+        margin: 2%;
+        font-size:3em;
+    }
+
+}
+
